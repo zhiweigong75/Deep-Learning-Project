@@ -1,7 +1,7 @@
 # dMRI Distortion Correction: A Deep Learning-based Registration Approach
 
 ## Introduction
-This is an unofficial implementation for [VoxelMorph](https://github.com/voxelmorph/voxelmorph). Pytroch Lightning + Monai are used to construct the training & evaluation framework to facilitate people make their own modifications and run experiment. 
+This is an unofficial implementation for [VoxelMorph](https://github.com/voxelmorph/voxelmorph) [1]. Pytroch Lightning + Monai are used to construct the training & evaluation framework to facilitate people make their own modifications and run experiment. 
 
 Monai's CacheDataset is used to accelerate training speed by 20x.
 
