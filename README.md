@@ -1,7 +1,7 @@
 # dMRI Distortion Correction: A Deep Learning-based Registration Approach
 
 ## Introduction
-This is an unofficial implementation for VoxelMorph. Pytroch Lightning + Monai are used to construct the training & evaluation framework to facilitate people make their own modifications and run experiment. 
+This is an unofficial implementation for [VoxelMorph](https://github.com/voxelmorph/voxelmorph). Pytroch Lightning + Monai are used to construct the training & evaluation framework to facilitate people make their own modifications and run experiment. 
 
 Monai's CacheDataset is used to accelerate training speed by 20x.
 
@@ -35,6 +35,12 @@ To do the inference using pretrained model:
 # modifiy the image path
 python inference.py 
 ```
+
+## References
+[1] **VoxelMorph: A Learning Framework for Deformable Medical Image Registration**  
+[Guha Balakrishnan](http://people.csail.mit.edu/balakg/), [Amy Zhao](http://people.csail.mit.edu/xamyzhao/), [Mert R. Sabuncu](http://sabuncu.engineering.cornell.edu/), [John Guttag](https://people.csail.mit.edu/guttag/), [Adrian V. Dalca](http://adalca.mit.edu)  
+IEEE TMI: Transactions on Medical Imaging. 2019. 
+[eprint arXiv:1809.05231](https://arxiv.org/abs/1809.05231)
 
 # TODO
 - Write more informative doc.
